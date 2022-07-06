@@ -21,26 +21,8 @@ At present, DCV 1.0 includes DBR and DCE.
 
 ## Functional Products
 
-### Dynamsoft Barcode Reader
-
-The barcode decoding feature of DCV is powered by Dynamsoft Barcode Reader (DBR). DBR is a robust SDK that enables users to quickly deploy barcode scanning functionality on all common barcodes such as 1D, QR, PDF417, etc. When working on the barcode scanning, there are various processing parameters available for users to adjust performance in different usage scenarios.
-
-<a href="https://www.dynamsoft.com/barcode-reader/introduction/?ver=latest" target="_blank">Read More about Dynamsoft Barcode Reader.</a>
-
-### Dynamsoft Camera Enhancer
-
-Dynamsoft Camera Enhancer (DCE) is an SDK that includes camera control, camera enhancements and basic UI configuration features.
-
-- Camera Control: The camera control features include the selection of the camera, open/close the camera, changing the resolution, etc.
-- Camera Enhancements: Advanced features like sharpness filter, sensor filter, enhanced focus, etc. They either improve the quality of camera output or promote the interaction.
-- UI Configuration: A build-in camera view is available for users to display and control the video streaming. Additional UI elements can be added to improve the visual effects of the output results of other Dynamsoft products. For example, the barcode decoding result can be highlighted on the camera view.
-
-<div align="center">
-   <p><img src="assets/highlight-barcode.gif" alt="barcode" width="25%" /></p>
-   <p>Highlight Decoded Barcodes</p>
-</div>
-
-<a href="https://www.dynamsoft.com/camera-enhancer/docs/introduction/?ver=latest" target="_blank">Read More about Dynamsoft Camera Enhancer.</a>
+- Dynamsoft Barcode Reader
+- Dynamsoft Camera Enhancer
 
 ## SDK Components
 
@@ -48,7 +30,9 @@ The functional products are re-encapsulated and presented as the components of D
 
 ### DynamsoftCameraView
 
-`DynamsoftCameraView` is the UI component that includes the full feature of DCE. When using the DCE-powered camera view, users can add the following configurations to the view:
+`DynamsoftCameraView` is the UI component that includes the full feature of <a href="https://www.dynamsoft.com/camera-enhancer/docs/introduction/?ver=latest" target="_blank">Dynamsoft Camera Enhancer</a> (DCE). 
+
+When using the DCE-powered camera view, users can add the following configurations to the view:
 
 - Control the camera (open/close).
 - Change the Basic properties of the camera such as resolution, focus points.
@@ -58,11 +42,20 @@ The functional products are re-encapsulated and presented as the components of D
 
 ### DynamsoftBarcodeReader
 
-`DynamsoftBarcodeReader` is the module that included the full feature of DBR. It powers the barcode decoding feature of DCV. When working with this module, users can:
+`DynamsoftBarcodeReader` is the module that included the full feature of <a href="https://www.dynamsoft.com/barcode-reader/introduction/?ver=latest" target="_blank">Dynamsoft Barcode Reader</a> (DBR). DBR is a robust SDK that enables users to quickly deploy barcode scanning functionality on all common barcodes such as 1D, QR, PDF417, etc. 
+
+
+
+It powers the barcode decoding feature of DCV. When working with this module, users can:
 
 - Specify barcode format.
 - Change basic barcode decoding settings.
 - Upload advanced barcode decoding parameters to optimize the performance.
+
+<div align="center">
+   <p><img src="assets/highlight-barcode.gif" alt="barcode" width="25%" /></p>
+   <p>Highlight Decoded Barcodes</p>
+</div>
 
 ## Key Features
 
